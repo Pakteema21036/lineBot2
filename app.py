@@ -30,7 +30,8 @@ def callback():
     else :
         senText(user'ไม่ค่อยสบาย)
      return '',200
-     def sendText(user, text):
+    
+ def sendText(user, text):
   LINE_API = 'https://api.line.me/v2/bot/message/reply'
   headers = {
     'Content-Type': 'application/json; charset=UTF-8',
